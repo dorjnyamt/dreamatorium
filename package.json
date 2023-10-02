@@ -1,0 +1,23 @@
+{
+  "name": "dreamatorium",
+  "version": "0.0.1",
+  "description": "Dreamatorium theme for Hugo",
+  "main": "index.js",
+  "scripts": {
+    "dev:css": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./themes/dreamatorium/assets/css/tailwind.css -o ./static/css/main.css -w",
+    "dev": "hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorjnyamt/dreamatorium.git"
+  },
+  "author": "Dorjnyam Tumur-Ochir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dorjnyamt/dreamatorium/issues"
+  },
+  "homepage": "https://github.com/dorjnyamt/dreamatorium#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

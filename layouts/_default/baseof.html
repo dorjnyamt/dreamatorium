@@ -1,17 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+<html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+{{- partial "head.html" . -}}
+
+<body class="flex relative h-full min-h-screen">
+  {{- partial "sidebar.html" . -}}
+  {{- block "main" . }}{{- end }}
 </body>
+
 </html>
