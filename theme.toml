@@ -1,28 +1,22 @@
-name = 'Theme name'
+name = 'Dreamatorium'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/dorjnyamt/dreamatorium/LICENSE'
+description = 'Personal Hugo Theme'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/dorjnyamt/dreamatorium'
 
 # If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+demosite = 'https://dorjnyamt.github.io/'
 
 # Taxonomy terms
 tags = ['blog', 'company']
 features = ['some', 'awesome', 'features']
 
-# If the theme has multiple authors
-authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
-]
-
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
+  name = 'Dorjnyam Tumur-Ochir'
+  homepage = 'dorjnyam.com'
 
 # If porting an existing theme
 [original]
