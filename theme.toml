@@ -13,6 +13,9 @@ demosite = 'https://dorjnyamt.github.io/'
 tags = ['blog', 'company']
 features = ['some', 'awesome', 'features']
 
+# Minimum version
+min_version = "0.119.0"
+
 # If the theme has a single author
 [author]
   name = 'Dorjnyam Tumur-Ochir'
